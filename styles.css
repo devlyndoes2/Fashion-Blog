@@ -1,0 +1,93 @@
+    html {
+    border-left: 5px solid lightgray;
+    /* margin-collapse */
+   }
+
+body {
+  min-height: 100vh;
+  max-width: 1000px
+}
+   
+font {
+  font-family: sans-serif;
+}
+
+header
+main
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+
+
+
+  <article class="forecast">
+    <h1>Weather forecast for Seattle</h1>
+    <article class="day-forecast">
+        <h2>03 March 2018</h2>
+        <p>Rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>04 March 2018</h2>
+        <p>Periods of rain.</p>
+    </article>
+    <article class="day-forecast">
+        <h2>05 March 2018</h2>
+        <p>Heavy rain.</p>
+    </article>
+</article>
+
+  
+  
+  /*css boilerplate */
+
+  /* body {
+    text-align: center;
+  }
+  canvas {
+    display: block;
+    width: 280px;
+    height: 210px;
+    margin: auto;
+    padding: 0;
+    border: none;
+    background-color: black;
+  }
+  button {
+    display: block;
+    font-size: inherit;
+    margin: auto;
+    padding: 0.6em;
+  }
+   */
+
+
+   /* javascript boilerplate
+
+   function getRenderingContext() {
+    const canvas = document.querySelector("canvas");
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
+    const gl = canvas.getContext("webgl")
+      || canvas.getContext("experimental-webgl");
+    if (!gl) {
+      const paragraph = document.querySelector("p");
+      paragraph.innerHTML = "Failed to get WebGL context."
+        + "Your browser or device may not support WebGL.";
+      return null;
+    }
+    gl.viewport(0, 0,
+      gl.drawingBufferWidth, gl.drawingBufferHeight);
+    gl.clearColor(0.0, 0.0, 0.0, 1.0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    return gl;
+  }
+   */
+
+   /* html boilerplate
+
+   <p>[ Some descriptive text about the example. ]</p>
+   <button>[ Optional button element. ]</button>
+   <canvas>Your browser does not seem to support HTML canvas.</canvas> */
